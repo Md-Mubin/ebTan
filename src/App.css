@@ -1,0 +1,14 @@
+/* ============ Common Css Part Start ============ */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol{
+    padding: 0;
+    margin: 0;
+}
+
+/* ============ Common Css Part End ============ */
