@@ -1,9 +1,8 @@
 // ===================== All Imports
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
-import Home from "./Components/Home/Home"
 import LayoutOne from "./Layouts/LayoutOne"
 import "./App.css"
-
+import Home from "./Pages/Home"
 
 function App() {
 
