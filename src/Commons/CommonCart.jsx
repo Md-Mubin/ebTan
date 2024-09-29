@@ -1,0 +1,16 @@
+// ===================== All Imports
+import React from 'react'
+
+const CommonCart = ({cartHead , cartInfo, cartIcon}) => {
+    return (
+        <>
+            <ul className='w-[380px] p-[32px_52px_32px_26px] bg-[#F0EFEA]'>
+                <li className='p-4 bg-[#CDD5CA] rounded-full w-fit text-brandColor text-[27px]'>{cartIcon}</li>
+                <li className='mt-5 font-inter font-bold text-[22px] text-commonColor leading-[145%]'>{cartHead}</li>
+                <li className='mt-[11px] font-inter font-medium text-[lg] text-[#A0A79A]'>{cartInfo}</li>
+            </ul>
+        </>
+    )
+}
+
+export default CommonCart

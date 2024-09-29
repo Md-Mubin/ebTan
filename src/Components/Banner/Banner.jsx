@@ -1,12 +1,12 @@
 // ===================== All Imports
-import React from 'react'
-import CountUp from 'react-countup'
-import { FaSmileBeam } from 'react-icons/fa'
-import { RiStarFill } from 'react-icons/ri'
+import React                  from 'react'
+import CountUp                from 'react-countup'
+import CommonHead             from '../../Commons/CommonHead'
+import CommonRates            from '../../Commons/CommonRates'
+import CommonButton           from '../../Commons/CommonButton'
+import { RiStarFill }         from 'react-icons/ri'
+import { FaSmileBeam }        from 'react-icons/fa'
 import { BiSolidShoppingBag } from 'react-icons/bi'
-import CommonRates from '../../Commons/CommonRates'
-import CommonLine from '../../Commons/CommonLine'
-import CommonButton from '../../Commons/CommonButton'
 
 const Banner = () => {
     return (
@@ -23,7 +23,7 @@ const Banner = () => {
                 <ul className='flex flex-col'>
 
                     {/* common heading */}
-                    <li><CommonLine commonHeading={"Normal to oily skin"} /></li>
+                    <li><CommonHead commonHeading={"Normal to oily skin"} /></li>
 
                     {/* main heading */}
                     <h1 className='w-[540px] font-ptSerif font-normal text-[72px] text-commonColor leading-[110%] mt-5'>Men's Sunscreen hand & body</h1>
@@ -32,7 +32,9 @@ const Banner = () => {
                     <p className='w-[526px] font-inter font-normal text-lg text-[#A0A79A] mt-5 leading-[145%]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
 
                     {/* button for adding item into cart */}
-                    <CommonButton />
+                    <li className='mt-[71px] '>
+                        <CommonButton />
+                    </li>
 
                     {/* ratings counts */}
                     <li className='mt-[42px] flex gap-[49px]'>

@@ -1,7 +1,7 @@
 // ===================== All Imports
 import React from 'react'
 
-const CommonLine = ({ commonHeading }) => {
+const CommonHead = ({ commonHeading }) => {
   return (
     <>
       {/* ================== Common Line ================== */}
@@ -10,4 +10,4 @@ const CommonLine = ({ commonHeading }) => {
   )
 }
 
-export default CommonLine
+export default CommonHead
