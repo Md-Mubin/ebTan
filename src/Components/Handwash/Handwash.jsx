@@ -12,7 +12,7 @@ const Handwash = () => {
     return (
         <>
         <section className='w-full bg-[#ECEBE6] pt-[110px] pb-[149px]'>
-            <div className="container flex justify-between">
+            <div className="container flex justify-between items-center">
                 <ul>
                     <li><CommonHead commonHeading={"All skins types"}/></li>
                     <li className='flex gap-20'>
