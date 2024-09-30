@@ -5,7 +5,7 @@ const CommonHead = ({ commonHeading }) => {
   return (
     <>
       {/* ================== Common Line ================== */}
-      <h4 className='font-ptSerif font-normal text-xl text-[#F2994A]'>{commonHeading}</h4>
+      <h4 className='font-ptSerif font-normal text-xl text-[#F2994A] text-center lg:text-start'>{commonHeading}</h4>
     </>
   )
 }

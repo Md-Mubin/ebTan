@@ -23,7 +23,14 @@ export default {
     // container part
     container: {
       center: true,
-      padding: "178px"
+      padding: {
+        DEFAULT: "10px",
+        sm: "30px",
+        md: "50px",
+        lg: "100px",
+        xl: "150px",
+        "2xl" : "178px"
+      }
     },
   },
   plugins: [],

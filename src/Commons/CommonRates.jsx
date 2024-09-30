@@ -20,7 +20,7 @@ const CommonRates = ({ countIcon, countNumber, countText, plusSign }) => {
                         <p className='font-inter font-bold text-[32px] text-commonColor'>{countNumber}{plusSign}</p> 
 
                         {/* text info */}
-                        <p className='font-inter font-normal text-lg text-[#A0A79A]'>{countText}</p>
+                        <p className='font-inter font-normal text-lg  text-[#A0A79A]'>{countText}</p>
                     </li>
                 </ul>
             </section>

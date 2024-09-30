@@ -19,7 +19,7 @@ const CommonToggle = ({ info, infoHead }) => {
 
                 {
                     show &&
-                    <li className='w-[300px] p-4 border border-brandColor rounded-xl text-center toggleinfos ml-10'>
+                    <li className='w-[250px] sm:w-[300px] p-4 border border-brandColor rounded-xl text-center toggleinfos ml-10'>
                         <h2 className='font-inter font-bold text-xl text-commonColor'>{infoHead}</h2>
                         <p className='font-ptSerif font-normal text-md mt-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </li>
