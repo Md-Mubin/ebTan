@@ -23,7 +23,7 @@ const Cream = () => {
                             <CommonToggle info={"Benefits"} infoHead={"Benefits"} />
                         </li>
 
-                        <li className='mt-[37px] flex items-center gap-4 xl:gap-[27px]'><CommonButton /> <span className='font-ptSerif font-normal text-3xl xl:text-[31px] text-brandColor leading-[145%]'>৳ 500</span></li>
+                        <li className='mt-[37px] flex items-center gap-4 xl:gap-[27px]'><CommonButton /> <span className='font-ptSerif font-normal text-2xl xl:text-[31px] text-brandColor leading-[145%]'>৳ 500</span></li>
                     </ul>
                 </div>
             </section>

@@ -21,7 +21,7 @@ const Mosture = () => {
 
                         <li className='mt-[37px] flex items-center gap-4 lg:gap-[27px]'>
                             <CommonButton />
-                            <span className='font-ptSerif font-normal text-3xl lg:text-[31px] text-brandColor leading-[145%]'>৳ 300</span>
+                            <span className='font-ptSerif font-normal text-2xl lg:text-[31px] text-brandColor leading-[145%]'>৳ 300</span>
                         </li>
                     </ul>
                     <ul className='pl-10 lg:pl-0'>
