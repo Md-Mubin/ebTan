@@ -20,7 +20,7 @@ const Banner = () => {
                 </ul>
 
                 {/* ---------- banner text part ---------- */}
-                <ul className='flex flex-col lg:w-[350px]'>
+                <ul className='flex flex-col lg:w-[350px] 2xl:w-[540px]'>
 
                     {/* common heading */}
                     <li><CommonHead commonHeading={"Normal to oily skin"} /></li>
