@@ -9,13 +9,13 @@ export default {
 
       // font family part 
       fontFamily: {
-        "inter" : ["Inter", "sans-serif"],
+        "inter"  : ["Inter", "sans-serif"],
         "ptSerif": ["PT Serif", "serif"],
       },
 
       // adding different colors
       colors: {
-        "brandColor" : "#E52525",
+        "brandColor"  : "#E52525",
         "commonColor" : "#333333"
       }
     },

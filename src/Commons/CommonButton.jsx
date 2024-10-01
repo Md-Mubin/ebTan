@@ -1,5 +1,5 @@
 // ===================== All Imports
-import React from 'react'
+import React              from 'react'
 import { FaCartShopping } from 'react-icons/fa6'
 
 const CommonButton = () => {

@@ -1,5 +1,5 @@
 // ===================== All Imports
-import React, { useState } from 'react'
+import React, { useState }   from 'react'
 import { HiBars3BottomLeft } from 'react-icons/hi2'
 
 const Navbar = () => {

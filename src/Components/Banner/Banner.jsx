@@ -38,9 +38,9 @@ const Banner = () => {
 
                     {/* ratings counts */}
                     <li className='mt-[42px] flex flex-wrap gap-[45px] justify-center lg:justify-start lg:gap-[49px] '>
-                        <CommonRates countIcon={<RiStarFill />} countNumber={<CountUp end={4.6} decimal=',' decimals={1} />} countText={"Ratings"} />
-                        <CommonRates countIcon={<BiSolidShoppingBag />} countNumber={<CountUp end={200} />} plusSign={"+"} countText={"Product solds"} />
-                        <CommonRates countIcon={<FaSmileBeam />} countNumber={<CountUp end={99} />} plusSign={"+"} countText={"Review"} />
+                        <CommonRates countIcon={<RiStarFill />}         countNumber={<CountUp end={4.6} decimal=',' decimals={1} />} countText={"Ratings"} />
+                        <CommonRates countIcon={<BiSolidShoppingBag />} countNumber={<CountUp end={200} />} plusSign={"+"}           countText={"Product solds"} />
+                        <CommonRates countIcon={<FaSmileBeam />}        countNumber={<CountUp end={99} />} plusSign={"+"}            countText={"Review"} />
                     </li>
                 </ul>
             </section>

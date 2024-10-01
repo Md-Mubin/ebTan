@@ -1,13 +1,15 @@
-import React  from 'react'
-import Banner from '../Components/Banner/Banner'
+// ===================== All Imports
+import React      from 'react'
+import Banner     from '../Components/Banner/Banner'
 import ChooseCart from '../Components/ChooseCart/ChooseCart'
-import Handwash from '../Components/Handwash/Handwash'
-import Cream from '../Components/Cream/Cream'
-import Mosture from '../Components/Mosture/Mosture'
+import Handwash   from '../Components/Handwash/Handwash'
+import Cream      from '../Components/Cream/Cream'
+import Mosture    from '../Components/Mosture/Mosture'
 
 const Home = () => {
   return (
     <>
+      {/* Home Page Components */}
       <Banner />
       <ChooseCart/>
       <Handwash/>
