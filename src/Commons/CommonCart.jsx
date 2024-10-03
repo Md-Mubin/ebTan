@@ -5,7 +5,7 @@ const CommonCart = ({cartHead , cartInfo, cartIcon}) => {
     return (
         <>
             {/* ================== Common Cart Section ================== */}
-            <ul className='lg:w-[260px] xl:w-[310px] 2xl:w-[380px] py-8 px-[26px] bg-[#F0EFEA] cursor-pointer lg:hover:shadow-[10px_10px_20px_rgba(0,0,0,0.2)] duration-200 rounded-[5px] flex lg:flex-none flex-col items-center border lg:border-none border-brandColor'>
+            <ul className='lg:w-[260px] xl:w-[310px] 2xl:w-[380px] py-8 px-[26px] bg-[#F0EFEA] cursor-pointer lg:hover:shadow-[10px_10px_20px_rgba(0,0,0,0.2)] duration-200 rounded-[5px] flex flex-col items-center lg:items-start border lg:border-none border-brandColor'>
 
                 {/* ------ cart icon ------ */}
                 <li className='p-4 bg-[#CDD5CA] rounded-full w-fit text-brandColor text-[27px] hover:shadow-[0_6px_10px_rgba(0,0,0,0.6)] duration-200'>
