@@ -8,7 +8,7 @@ const Mosture = () => {
     return (
         <>
             {/* ================== Mosture Section ================== */}
-            <section className='w-full pb-[142px] '>
+            <section className='w-full '>
                 <div className="container flex flex-col-reverse lg:flex-row mt-20 lg:mt-0 gap-20 lg:gap-0 xl:gap-[190px] items-center">
 
                     {/* -------- Mosture Informations -------- */}
