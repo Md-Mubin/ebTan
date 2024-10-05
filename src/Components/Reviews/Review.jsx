@@ -1,9 +1,11 @@
-import React from 'react'
+// ===================== All Imports
+import React        from 'react'
 import CommonReview from '../../Commons/CommonReview'
 
 const Review = () => {
     return (
         <>
+            {/* ================== Review Section ================== */}
             <section className='lg:mt-[142px] lg:mb-[120px] my-[50px]'>
                 <ul className='container'>
                     <h1 className='font-ptSerif font-normal text-4xl lg:text-5xl text-brandColor text-center'>Review</h1>
