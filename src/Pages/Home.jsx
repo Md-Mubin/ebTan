@@ -10,7 +10,7 @@ import Subscribe from '../Components/Subscribe/Subscribe'
 
 const Home = () => {
   return (
-    <>
+    <> 
       {/* Home Page Components */}
       <Banner />
       <ChooseCart/>
